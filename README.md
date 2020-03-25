@@ -56,13 +56,17 @@ $ kubectl describe pods (mostra todos os pods que estão rodando)
 
 $kubectl get pod
 
-[![Murilo](https://i.snipboard.io/hqsjYO.jpg)
 
 
 
 # Arquitetura Kubernetes
 
 
+[![Murilo](https://i.snipboard.io/hqsjYO.jpg)
+
+# Serviço LoadBalancer
+
+[!Murilo](https://snipboard.io/46c31421-a761-44c2-b104-a89648d74184)
 
 
 # Comandos Mais Utilizados
