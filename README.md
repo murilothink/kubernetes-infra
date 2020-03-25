@@ -66,7 +66,7 @@ $kubectl get pod
 
 # Serviço LoadBalancer
 
-[!Murilo](https://snipboard.io/46c31421-a761-44c2-b104-a89648d74184)
+[!Murilo](https://i.snipboard.io/LPMz42.jpg)
 
 
 # Comandos Mais Utilizados
@@ -105,6 +105,8 @@ $kubectl logs <nome-pod-name> (Por fim, podemos ver os logs de um Pod com o coma
   
   
 $kubectl delete pods <nome do pods>
+    
+    
     
     
     
