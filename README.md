@@ -66,7 +66,10 @@ $kubectl get pod
 
 # Serviço LoadBalancer
 
-[!Murilo](https://snipboard.io/LPMz42.jpg)
+https://snipboard.io/LPMz42.jpg
+
+[![Murilo](https://snipboard.io/LPMz42.jpg)
+
 
 
 # Comandos Mais Utilizados
