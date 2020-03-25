@@ -62,14 +62,17 @@ $kubectl get pod
 # Arquitetura Kubernetes
 
 
-[![Murilo](https://i.snipboard.io/hqsjYO.jpg)
+![Murilo](https://i.snipboard.io/hqsjYO.jpg)
 
 # Serviço LoadBalancer
 
-https://snipboard.io/LPMz42.jpg
+![Murilo](https://snipboard.io/LPMz42.jpg)
 
-[![Murilo](https://snipboard.io/LPMz42.jpg)
+# Criando o arquivo service-aplicacao-noticias.yml (Serviço LoadBalancer)
 
+
+
+![Murilo](https://i.snipboard.io/AI84rf.jpg)
 
 
 # Comandos Mais Utilizados
