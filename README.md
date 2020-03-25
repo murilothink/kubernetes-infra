@@ -68,7 +68,7 @@ $kubectl get pod
 ![Murilo](https://snipboard.io/LPMz42.jpg)
 
 ## Criando o arquivo service-aplicacao-noticias.yml (Serviço LoadBalancer)
-![Murilo](https://i.snipboard.io/AI84rf.jpg)
+![Murilo](https://i.snipboard.io/fMSu7K.jpg)
 
 
 # Comandos Mais Utilizados
