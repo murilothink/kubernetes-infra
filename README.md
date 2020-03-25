@@ -56,6 +56,8 @@ $ kubectl describe pods (mostra todos os pods que estão rodando)
 
 $kubectl get pod
 
+[![Murilo](https://i.snipboard.io/hqsjYO.jpg)
+
 
 
 # Arquitetura Kubernetes
@@ -99,6 +101,9 @@ $kubectl logs <nome-pod-name> (Por fim, podemos ver os logs de um Pod com o coma
   
   
 $kubectl delete pods <nome do pods>
+    
+    
+    
 
 
 
