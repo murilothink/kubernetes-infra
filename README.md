@@ -71,6 +71,22 @@ $kubectl get pod
 ![Murilo](https://i.snipboard.io/fMSu7K.jpg)
 
 
+            apiVersion: apps/v1beta1
+            kind: Deployment
+                metadata:
+                    name: nginx-deployment
+            spec:
+               template:
+                    metadata:
+                        labels:
+                            name: nginx
+             spec:
+                replicas: 3
+                containers:
+        -           name: container-kubernetes
+                       image: nginx
+
+
 # Comandos Mais Utilizados
 
 $ kubectl get nodes (Por exemplo, você pode listar os nodes do seu cluster usando:)
