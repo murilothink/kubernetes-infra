@@ -125,6 +125,9 @@ $kubectl logs <nome-pod-name> (Por fim, podemos ver os logs de um Pod com o coma
 $kubectl delete pods <nome do pods>
     
     
+kubectl create -f deployment-aplicacao.yml
+    
+    
     
     
     
