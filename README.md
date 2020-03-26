@@ -89,46 +89,32 @@ $kubectl get pod
 
 # Comandos Mais Utilizados
 
-$ kubectl get nodes (Por exemplo, você pode listar os nodes do seu cluster usando:)
+## para listar os pods
+    kubectl get pods
 
+## tbm funcionar para deployments e services, por exemplo:
+    kubectl get services
 
-$kubectl explain node (Caso queira entender melhor aquele recurso, use o comando explain:)
+## para detalhes de um pod
+    kubectl describe pod <nome-pod>
 
-$kubectl get pods     
+## o comando describe tbm funciona para deployment e service, por exemplo:
+    kubectl describe service <nome>
 
+## para criar pod, deployment ou service a partir de um arquivo yml
+    kubectl create -f <nome-arquivo-yml>
 
+## para remover pod, deployment ou service a partir de um arquivo yml
+    kubectl delete -f <nome-arquivo-yml>
 
+## para remover um pod
+    kubectl delete pod <nome-pod>
 
+## para remover um deployment
+    kubectl delete deployment <nome-deployment>
 
-## Informações sobre os pods, service, deployments etc recebemos pelo comando kubectl get ..., por exemplo
-
-
-$kubectl get deployments
-
-
-$kubectl get services
-
-e
-
-$kubectl get pod <nome-do-pod>
-  
-  
-$kubectl get deployment <nome-do-deployment>
-  
-  
-$kubectl get service <nome-do-service>
-  
-  
-$kubectl logs <nome-pod-name> (Por fim, podemos ver os logs de um Pod com o comando.)
-  
-  
-$kubectl delete pods <nome do pods>
-    
-    
-kubectl create -f deployment-aplicacao.yml
-    
-    
-    
+## para remover um service
+      kubectl delete service <nome-service>
     
     
 
