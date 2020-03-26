@@ -120,6 +120,21 @@ $kubectl get pod
 
     minikube service servico-aplicacao-sistema --url
     
+# Parametrização de CPU e memória de cada Pod
+
+a configuração para tal é feita no container através de um elemento resources onde podemos especificar requests e limits
+requests é o valor o container está garantido de ter
+
+
+limits é o máximo permitido o que o container terá disponível
+
+    resources:
+    requests:
+    memory: "16Mi"
+    cpu: "100m"
+    limits:
+    memory: "32Mi"
+    cpu: "200m"
 
 
 
