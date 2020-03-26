@@ -145,4 +145,12 @@ limits é o máximo permitido o que o container terá disponível
         --cpu-percent=50 \
         --min=1 \
         --max=10
+## para listar os addons
 
+    minikube addons list
+
+## para habilitar
+    minikube addons enable metrics-server
+
+## Para desabilitar
+    minikube addons disable metrics-server
