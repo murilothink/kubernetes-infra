@@ -116,6 +116,9 @@ $kubectl get pod
 ## para remover um service
       kubectl delete service <nome-service>
     
+## para pedir um URL de acesso
+
+    minikube service servico-aplicacao-sistema --url
     
 
 
