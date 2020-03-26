@@ -137,5 +137,12 @@ limits é o máximo permitido o que o container terá disponível
         cpu: "200m"
 
 
+# Replicação automática do ambiente usando a tarefa Horizontal Pod Autoscale
 
+    kubectl autoscale \
+    deployment \
+    aplicacao-noticia-deployment \
+        --cpu-percent=50 \
+        --min=1 \
+        --max=10
 
