@@ -1,3 +1,5 @@
+# Esses são os pods
+
 apiVersion: v1
 kind: Pod
 metadata:
@@ -8,3 +10,5 @@ spec:
       image: jnlucas/image-phpmysql:latest
       ports:
         - containerPort: 80
+
+        
