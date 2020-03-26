@@ -130,11 +130,11 @@ limits é o máximo permitido o que o container terá disponível
 
     resources:
     requests:
-    memory: "16Mi"
-    cpu: "100m"
+        memory: "16Mi"
+        cpu: "100m"
     limits:
-    memory: "32Mi"
-    cpu: "200m"
+        memory: "32Mi"
+        cpu: "200m"
 
 
 
